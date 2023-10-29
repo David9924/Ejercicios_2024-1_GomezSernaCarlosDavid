@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Formulas_Ejercicio1</string>
+    <string name="valor">Ingresa correctamente el dato</string>
+    <string name="validacion">"Resultado obtenido"</string>
+    <string name="valor_s">Ingrese un número valido</string>
+    <string name="valor_i">Invalid input</string>
+    <string name="computo_movil">Computo Movil</string>
+    <string name="calculadora">Calculadora de Formulas</string>
+    <string name="formulas">Formula</string>
+    <string name="calcular">CALCULAR</string>
+
+    <string-array name="Formulas">
+        <item>Ley de Ohm (Voltaje)</item>
+        <item>Aceleracion</item>
+        <item>Area de un cuadrado</item>
+    </string-array>
+
+
 </resources>
