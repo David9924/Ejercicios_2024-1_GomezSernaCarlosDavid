@@ -8,6 +8,12 @@
     <string name="calculadora">Calculadora de Formulas</string>
     <string name="formulas">Formula</string>
     <string name="calcular">CALCULAR</string>
+    <string name="Resistencia">R=</string>
+    <string name="Corriente">I=</string>
+    <string name="Fuerza">F=</string>
+    <string name="Masa">M=</string>
+    <string name="Base">b=</string>
+    <string name="Altura">h=</string>
 
     <string-array name="Formulas">
         <item>Ley de Ohm (Voltaje)</item>

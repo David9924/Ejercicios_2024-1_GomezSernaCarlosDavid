@@ -36,9 +36,36 @@ class MainActivity : AppCompatActivity() {
                     binding.editTextNumber2.text.clear()
 
                     val elegirformula = formulas[position]
+                    //val elegformula2 = parent.getItemAtPosition(position).toString().toInt()
                     val num1 = binding.editTextNumber.text.toString()
                     val num2 = binding.editTextNumber2.text.toString()
+                    when(elegirformula){
+                        formulas[0] -> {
+                            binding.textView5.visibility = View.VISIBLE
+                            binding.textView6.visibility = View.VISIBLE
+                            binding.textView7.visibility = View.INVISIBLE
+                            binding.textView8.visibility = View.INVISIBLE
+                            binding.textView9.visibility = View.INVISIBLE
+                            binding.textView10.visibility = View.INVISIBLE
 
+                        }
+                        formulas[1] -> {
+                            binding.textView7.visibility = View.VISIBLE
+                            binding.textView8.visibility = View.VISIBLE
+                            binding.textView5.visibility = View.INVISIBLE
+                            binding.textView6.visibility = View.INVISIBLE
+                            binding.textView9.visibility = View.INVISIBLE
+                            binding.textView10.visibility = View.INVISIBLE
+                        }
+                        formulas[2] -> {
+                            binding.textView9.visibility = View.VISIBLE
+                            binding.textView10.visibility = View.VISIBLE
+                            binding.textView5.visibility = View.INVISIBLE
+                            binding.textView6.visibility = View.INVISIBLE
+                            binding.textView7.visibility = View.INVISIBLE
+                            binding.textView8.visibility = View.INVISIBLE
+                        }
+                    }
 
                 }
                 override fun onNothingSelected(parent: AdapterView<*>) {
