@@ -3,7 +3,7 @@
     <string name="valor">Ingresa correctamente el dato</string>
     <string name="validacion">"Resultado obtenido"</string>
     <string name="valor_s">Ingrese un número valido</string>
-    <string name="valor_i">Invalid input</string>
+    <string name="valor_i">Error</string>
     <string name="computo_movil">Computo Movil</string>
     <string name="calculadora">Calculadora de Formulas</string>
     <string name="formulas">Formula</string>
@@ -14,6 +14,12 @@
     <string name="Masa">M=</string>
     <string name="Base">b=</string>
     <string name="Altura">h=</string>
+    <string name="Voltaje">v=</string>
+    <string name="Aceleracion">a=</string>
+    <string name="Area">A=</string>
+    <string name="Resultado">Resultado</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="nombre">Gomez Serna Carlos David</string>
 
     <string-array name="Formulas">
         <item>Ley de Ohm (Voltaje)</item>

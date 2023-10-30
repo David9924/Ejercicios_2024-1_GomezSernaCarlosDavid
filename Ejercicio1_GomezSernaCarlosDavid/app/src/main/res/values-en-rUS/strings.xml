@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Formulas_Ejercicio1</string>
+    <string name="valor">Enter the data correctly</string>
+    <string name="validacion">Obtained result</string>
+    <string name="valor_s">Enter a valid number</string>
+    <string name="valor_i">Error</string>
+    <string name="computo_movil">Mobile Computing</string>
+    <string name="calculadora">" Formula Calculator"</string>
+    <string name="formulas">Formula</string>
+    <string name="calcular">CALCULATE</string>
+    <string name="Resistencia">R =</string>
+    <string name="Corriente">I =</string>
+    <string name="Fuerza">F =</string>
+    <string name="Masa">M =</string>
+    <string name="Base">b=</string>
+    <string name="Altura">h=</string>
+    <string name="Resultado">Result</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="nombre">Gomez Serna Carlos David</string>
+
+    <string-array name="Formulas">
+        <item>Ohms Law (Voltage)</item>
+        <item>Acceleration</item>
+        <item>Area of a right triangle</item>
+    </string-array>
+    <string name="Voltaje">v=</string>
+    <string name="Aceleracion">a=</string>
+    <string name="Area">A=</string>
+
+</resources>

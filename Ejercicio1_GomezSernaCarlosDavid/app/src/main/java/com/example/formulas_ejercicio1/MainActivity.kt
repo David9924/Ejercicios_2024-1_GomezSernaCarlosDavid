@@ -34,9 +34,10 @@ class MainActivity : AppCompatActivity() {
                 ) {
                     binding.editTextNumber.text.clear()
                     binding.editTextNumber2.text.clear()
+                    binding.textView3.text = ""
+
 
                     val elegirformula = formulas[position]
-                    //val elegformula2 = parent.getItemAtPosition(position).toString().toInt()
                     val num1 = binding.editTextNumber.text.toString()
                     val num2 = binding.editTextNumber2.text.toString()
                     when(elegirformula){
@@ -50,6 +51,9 @@ class MainActivity : AppCompatActivity() {
                             binding.imageView.visibility = View.VISIBLE
                             binding.imageView2.visibility = View.INVISIBLE
                             binding.imageView3.visibility = View.INVISIBLE
+                            binding.textView14.visibility = View.VISIBLE
+                            binding.textView15.visibility = View.INVISIBLE
+                            binding.textView16.visibility = View.INVISIBLE
 
                         }
                         formulas[1] -> {
@@ -62,6 +66,9 @@ class MainActivity : AppCompatActivity() {
                             binding.imageView.visibility = View.INVISIBLE
                             binding.imageView2.visibility = View.INVISIBLE
                             binding.imageView3.visibility = View.VISIBLE
+                            binding.textView15.visibility = View.VISIBLE
+                            binding.textView14.visibility = View.INVISIBLE
+                            binding.textView16.visibility = View.INVISIBLE
                         }
                         formulas[2] -> {
                             binding.textView9.visibility = View.VISIBLE
@@ -73,6 +80,9 @@ class MainActivity : AppCompatActivity() {
                             binding.imageView.visibility = View.INVISIBLE
                             binding.imageView2.visibility = View.VISIBLE
                             binding.imageView3.visibility = View.INVISIBLE
+                            binding.textView16.visibility = View.VISIBLE
+                            binding.textView15.visibility = View.INVISIBLE
+                            binding.textView14.visibility = View.INVISIBLE
                         }
                     }
 
@@ -89,22 +99,21 @@ class MainActivity : AppCompatActivity() {
            var num = 0
             var num2 = 0
 
-
             if(binding.editTextNumber.text.isNotEmpty()){
                 num =  binding.editTextNumber.text.toString().toInt()
             android.widget.Toast.makeText( this, getString((R.string.validacion)), android.widget.Toast.LENGTH_LONG).show()
             }
             else{
                 binding.editTextNumber.error = getString((R.string.valor))
-                //android.widget.Toast.makeText(this, "Ingresa un número por favor", android.widget.Toast.LENGTH_LONG).show()
+
         }
             if(binding.editTextNumber2.text.isNotEmpty()){
                 num2 = binding.editTextNumber2.text.toString().toInt()
-                //android.widget.Toast.makeText( this, "Resultado obtenido", android.widget.Toast.LENGTH_LONG).show()
+
             }
             else{
                 binding.editTextNumber2.error = getString((R.string.valor))
-                //android.widget.Toast.makeText(this, "Ingresa un número por favor", android.widget.Toast.LENGTH_LONG).show()
+
             }
 
 
