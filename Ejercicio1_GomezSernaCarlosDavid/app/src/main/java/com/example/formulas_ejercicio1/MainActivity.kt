@@ -47,6 +47,9 @@ class MainActivity : AppCompatActivity() {
                             binding.textView8.visibility = View.INVISIBLE
                             binding.textView9.visibility = View.INVISIBLE
                             binding.textView10.visibility = View.INVISIBLE
+                            binding.imageView.visibility = View.VISIBLE
+                            binding.imageView2.visibility = View.INVISIBLE
+                            binding.imageView3.visibility = View.INVISIBLE
 
                         }
                         formulas[1] -> {
@@ -56,6 +59,9 @@ class MainActivity : AppCompatActivity() {
                             binding.textView6.visibility = View.INVISIBLE
                             binding.textView9.visibility = View.INVISIBLE
                             binding.textView10.visibility = View.INVISIBLE
+                            binding.imageView.visibility = View.INVISIBLE
+                            binding.imageView2.visibility = View.INVISIBLE
+                            binding.imageView3.visibility = View.VISIBLE
                         }
                         formulas[2] -> {
                             binding.textView9.visibility = View.VISIBLE
@@ -64,6 +70,9 @@ class MainActivity : AppCompatActivity() {
                             binding.textView6.visibility = View.INVISIBLE
                             binding.textView7.visibility = View.INVISIBLE
                             binding.textView8.visibility = View.INVISIBLE
+                            binding.imageView.visibility = View.INVISIBLE
+                            binding.imageView2.visibility = View.VISIBLE
+                            binding.imageView3.visibility = View.INVISIBLE
                         }
                     }
 
