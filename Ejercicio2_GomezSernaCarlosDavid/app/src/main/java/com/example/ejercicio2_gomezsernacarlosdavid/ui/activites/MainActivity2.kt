@@ -1,20 +1,19 @@
-package com.example.ejercicio2_gomezsernacarlosdavid
+package com.example.ejercicio2_gomezsernacarlosdavid.ui.activites
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import com.example.ejercicio2_gomezsernacarlosdavid.R
 import com.example.ejercicio2_gomezsernacarlosdavid.databinding.ActivityMainBinding
 
 class MainActivity2 : AppCompatActivity() {
 
+    private lateinit var binding: ActivityMainBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
-
-
-
-
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
     }
 }
