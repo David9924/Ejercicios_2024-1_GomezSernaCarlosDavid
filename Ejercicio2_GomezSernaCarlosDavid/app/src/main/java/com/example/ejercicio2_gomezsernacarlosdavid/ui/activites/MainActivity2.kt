@@ -62,18 +62,19 @@ class MainActivity2 : AppCompatActivity() {
                 ) {
                     binding.pbConexion.visibility = View.INVISIBLE
 
+                    Toast.makeText(this@MainActivity2, "Hay sistema", Toast.LENGTH_SHORT).show()
                     Log.d(Constants.LOGTAG, "Respuesta del servidor: ${response.toString()}")
                     Log.d(Constants.LOGTAG, "Datos: ${response.body().toString()}")
 
                     val adaptador = Adaptador(response.body()!!) { dato ->
                         Toast.makeText(
                             this@MainActivity2,
-                            getString(R.string.id22),
+                            "Personaje seleccionado",
                             Toast.LENGTH_SHORT
                         ).show()
 
                         val bundle = bundleOf(
-                            getString(R.string.id21) to dato.id
+                            "id" to dato.id
 
                         )
 
@@ -95,12 +96,11 @@ class MainActivity2 : AppCompatActivity() {
 
                 override fun onFailure(call: Call<ArrayList<Datos>>, t: Throwable) {
                     binding.pbConexion.visibility = View.INVISIBLE
-                    Toast.makeText(this@MainActivity2, getString(R.string.id22), Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@MainActivity2, "No hay sistema", Toast.LENGTH_SHORT).show()
+
 
 
                 }
-
-
 
             })
 
