@@ -4,8 +4,8 @@ import com.google.gson.annotations.SerializedName
 
 data class Datos(
 
-    var fullname: String?,
-    var image: String?,
+    var id: Int?,
+    var fullName: String?,
     var imageUrl: String?
 
 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "893097555015",
+    "project_id": "ejercicio2-computomovil",
+    "storage_bucket": "ejercicio2-computomovil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893097555015:android:9efdcc64bfdc02bc582d62",
+        "android_client_info": {
+          "package_name": "com.example.ejercicio2_gomezsernacarlosdavid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPWTDjUWw6IY8FDCbW2fd3uI5W4LG259A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

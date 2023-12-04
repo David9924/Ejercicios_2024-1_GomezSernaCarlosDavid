@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">Ejercicio2_GomezSernaCarlosDavid</string>
+    <string name="contra">"Restablecer contraseña"</string>
+    <string name="corr">"Ingresa el correo para restablecer su contraseña"</string>
+    <string name="env">"El correo para restablecer la contraseña ha sido enviado"</string>
+    <string name="id1">"No se pudo enviar el correro"</string>
+    <string name="id2">"Por favor ingresa un correo"</string>
+    <string name="id3">"Cancelar"</string>
+    <string name="id4">"Se requiere el correo"</string>
+    <string name="id5">"Se requiere una contraseña o la contraseña no tiene por lo menos 6 caracteres"</string>
+    <string name="id6">"Error: El correo electrónico no tiene un formato correcto"</string>
+    <string name="id7">"Error: La contraseña no es válida"</string>
+    <string name="id8">"La contraseña no es válida"</string>
+    <string name="id9">"Error: Una cuenta ya existe con el mismo correo, pero con diferentes datos de ingreso"</string>
+    <string name="id10">"Error: el correo electrónico ya está en uso con otra cuenta."</string>
+    <string name="id11">"Error: el correo electrónico ya está en uso con otra cuenta."</string>
+    <string name="id12">"Error: La sesión ha expirado. Favor de ingresar nuevamente."</string>
+    <string name="id13">"Error: No existe el usuario con la información proporcionada."</string>
+    <string name="id14">"La contraseña porporcionada es inválida"</string>
+    <string name="id15">"La contraseña debe de tener por lo menos 6 caracteres"</string>
+    <string name="id16">"Red no disponible o se interrumpió la conexión"</string>
+    <string name="id17">"Error. No se pudo autenticar exitosamente."</string>
+    <string name="id18">"Autenticación exitosa"</string>
+    <string name="id19">"El correo de verificación ha sido enviado a tu cuenta"</string>
+    <string name="id20">"No se pudo enviar el correo de verificación"</string>
+    <string name="id21">"Usuario creado"</string>
+    <string name="id22">"No hay sistema"</string>
+    <string name="id23">"id"</string>
+    <string name="id24">"House Stark"</string>
+    <string name="id25">"House Lanister"</string>
+    <string name="id26">"House Martell"</string>
+    <string name="id27">"House Mormont"</string>
+    <string name="id28">"House Targaryen" </string>
+    <string name="id29">"House Tully"</string>
+    <string name="id30">"House Tyrell" </string>
+    <string name="id31">"House Velaryon"</string>
+    <string name="id32">"House Greyjoy"</string>
+    <string name="id33">"House Hightower" </string>
+    <string name="id34">"House Cole"</string>
+    <string name="id35">"House Bolton"</string>
+    <string name="id36">"House Baratheon"</string>
+    <string name="id37">"House Arryn"</string>
+    <string name="id38">"House Tarly"</string>
+
+
+
+
+
+
+
+
 </resources>

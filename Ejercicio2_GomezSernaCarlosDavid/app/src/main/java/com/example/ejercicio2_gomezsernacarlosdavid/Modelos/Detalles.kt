@@ -5,9 +5,9 @@ import com.google.gson.annotations.SerializedName
 data class Detalles(
 
     val id: Int?,
-    var firstname: String?,
-    var lastname: String?,
-    var fullname: String?,
+    var firstName: String?,
+    var lastName: String?,
+    var fullName: String?,
     var title: String?,
     var family: String?,
     var image: String?,
