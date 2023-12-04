@@ -52,15 +52,15 @@ class MainActivity3 : AppCompatActivity() {
                     text7.text = response.body()?.family
                     text8.text = response.body()?.imageUrl
                     val houseImage: Int = when (response.body()?.family) {
-                        getString(R.string.id24) -> R.drawable.stark
-                        getString(R.string.id25) -> R.drawable.lannister
-                        getString(R.string.id26) -> R.drawable.martell
-                        getString(R.string.id27) -> R.drawable.mormont
-                        getString(R.string.id28) -> R.drawable.strong
-                        getString(R.string.id29) -> R.drawable.targaryen
-                        getString(R.string.id30) -> R.drawable.tully
-                        getString(R.string.id31) -> R.drawable.tyrell
-                        getString(R.string.id32) -> R.drawable.velaryon
+                        "House Stark" -> R.drawable.stark
+                        "House Lanister" -> R.drawable.lannister
+                        "House Martell" -> R.drawable.martell
+                        "House Mormont" -> R.drawable.mormont
+                        "House Strong" -> R.drawable.strong
+                        "House Targaryen" -> R.drawable.targaryen
+                        "House Tully" -> R.drawable.tully
+                        "House Tyrell" -> R.drawable.tyrell
+                        "House Velaryon" -> R.drawable.velaryon
                         "House Greyjoy" -> R.drawable.greyjoy
                         "House Hightower" -> R.drawable.hightower
                         "House Cole" -> R.drawable.cole
